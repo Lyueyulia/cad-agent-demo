@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.streamlit/
+venv/
+.venv/
+part.step
+part.stl
+part.gltf
+part.bin
+preview.html

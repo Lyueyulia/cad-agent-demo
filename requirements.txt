@@ -1,0 +1,17 @@
+streamlit==1.56.0
+langgraph==1.1.6
+langchain==1.2.15
+langchain-core==1.2.26
+langchain-openai==1.1.12
+langchain-google-genai==4.2.1
+python-dotenv==1.2.2
+requests==2.33.1
+
+# CAD / Geometry
+cadquery==2.7.0
+cadquery-ocp==7.8.1.1.post1
+
+# 3D preview (STL -> glTF -> three.js viewer)
+pyvista==0.47.2
+vtk==9.3.1
+nest-asyncio2==1.7.2
