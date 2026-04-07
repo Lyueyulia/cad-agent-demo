@@ -9,7 +9,9 @@ requests==2.33.1
 
 # CAD / Geometry
 cadquery==2.7.0
-cadquery-ocp==7.8.1.1.post1
+# 注意：不要在云端硬 pin cadquery-ocp。
+# Streamlit Cloud 默认可能用较新 Python（如 3.14），会导致 ocp 无 wheel 而安装失败。
+# 由 cadquery 自行选择兼容的 cadquery-ocp 版本（配合 runtime.txt 固定 python-3.11）。
 
 # 3D preview (STL -> glTF -> three.js viewer)
 pyvista==0.47.2
